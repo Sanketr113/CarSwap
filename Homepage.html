@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>CarSwap</title>
+</head>
+
+<body>
+    <!-- -------------------------------------------------------------------Navbar----------------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="Asset/logo1.png" width="160" height="45" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Homepage.html">Popular <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Loan.html">Car Loan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="FAQ.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Feedback.html">Feedback</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0 w-50">
+                <input class="form-control mr-sm-2 w-75 ml-5" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- -------------------------------------------------------------------Carousel--------------------------------------------------------------------- -->
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active h-50">
+                <img class="d-block w-100" src="Asset/slide4.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>BUY</h1>
+                    <p>Experience the thrill of owning your dream car. Buy yours today!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Asset/slide6.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Sell</h1>
+                    <p>Discover unmatched performance and style. Sell your car to us.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Asset/Slide3.png" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Loan</h1>
+                    <p>Need funds for your dream car? Our hassle-free car loan options have got you covered!</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- -------------------------------------------------------------------Car-------------------------------------------------------------------------- -->
+
+    <h2 style="margin-left: 45%; margin-top: 20px;">Featured Cars</h2>
+
+    <div class="card text-center" style="margin: 20px 350px 20px 350px; width: 1200px;">
+        <div class="card-header" style="padding-left: 40% ; padding-right: 35%;">
+            <ul class="nav nav-tabs card-header-tabs" id="myTab">
+                <li class="nav-item">
+                    <a href="#Popular" class="nav-link active" data-bs-toggle="tab">Popular</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Launched" class="nav-link" data-bs-toggle="tab">Launched</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Upcoming" class="nav-link" data-bs-toggle="tab">Upcoming</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card-body" style="padding: 20px 50px 20px 50px;">
+            <div class="tab-content">
+
+                <!-- Popular -->
+
+                <div class="tab-pane fade show active" id="Popular">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="Asset/Maruti-fronx.png" alt="Card image cap"
+                                style="padding: 0px 50px 0px 50px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Maruti Fronx</h5>
+                                <p class="card-text">Rs. 7.47 - 13.14 Lakh</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="Asset/scorpio-exterior-right-front-three-quarter-46.webp"
+                                alt="Card image cap" style="padding: 0px 50px 0px 50px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Mahindra Scorpio</h5>
+                                <p class="card-text">Rs. 13.00 - 16.81 Lakh</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top"
+                                src="Asset/xuv300-turbosport-exterior-right-front-three-quarter-8.webp"
+                                alt="Card image cap" style="padding: 0px 50px 0px 50px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Mahindra XUV300 TurboSport</h5>
+                                <p class="card-text">Rs. 10.71 - 13.30 Lakh</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Just Launch -->
+
+                <div class="tab-pane fade" id="Launched">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="Asset/invicto-exterior-right-front-three-quarter-2.webp"
+                                alt="Card image cap" style="padding: 0px 50px 0px 50px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Maruti Invicto</h5>
+                                <p class="card-text">Rs. 24.79 - 28.42 Lakh</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top"
+                                src="Asset/amg-sl55-roadster-exterior-right-front-three-quarter-2.webp"
+                                alt="Card image cap" style="padding: 0px 50px 0px 50px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Mercedes-Benz AMG SL55 Roadster</h5>
+                                <p class="card-text">Rs. 2.35 Crore</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="Asset/g-class-exterior-right-front-three-quarter-2.webp"
+                                alt="Card image cap" style="padding: 0px 50px 0px 50px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Mercedes-Benz G-Class</h5>
+                                <p class="card-text">Rs. 2.55 Crore</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upcoming -->
+
+                <div class="tab-pane fade" id="Upcoming">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="Asset/exter-exterior-right-front-three-quarter-4.webp"
+                                alt="Card image cap" style="padding: 0px 50px 0px 50px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Hyundai Exter</h5>
+                                <p class="card-text">Rs. 6.00 - 10.00 Lakh</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="Asset/c40-recharge-exterior-left-front-three-quarter.webp"
+                                alt="Card image cap" style="padding: 0px 50px 0px 50px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Volvo C40 Recharge</h5>
+                                <p class="card-text">Rs. 59.00 - 60.00 Lakh</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="Asset/seltos-facelift-exterior-front-view.webp"
+                                alt="Card image cap" style="padding: 0px 50px 0px 50px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Kia Seltos Facelift </h5>
+                                <p class="card-text">Rs. 11.00 - 19.00 Lakh</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------------Top Cars--------------------------------------------------------------------- -->
+
+    <h2 style="margin-left: 45%;">Top Cars</h2>
+
+    <div class="card-deck" style="height: 400px; width: 1200px; margin: 20px 350px 10px 350px;">
+        <div class="card">
+            <img class="card-img-top" src="Asset/suv.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Top SUVs in India</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="Asset/hatchbacks.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Top Hatchbacks in India</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="Asset/luxury_msite.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Top Luxury Cars in India</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------------Forms----------------------------------------------------------------------- -->
+
+    <div class="Forms"
+        style="height: 320px;width:1920px;background-image: url(Asset/background.jpeg); background-size: cover; margin: 50px 0px 20px 0px; padding-top: 1px;">
+        <div class="container"
+            style="height: 280px;width: 30%; background-color: rgb(0, 0, 0,0.3); border-radius: 30px; margin-top: 20px;padding:10px ;">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1" style="color: white;">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted" style="color: white;">We'll never share your
+                        email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" style="color: white;">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1" style="color: white;">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------------Logos----------------------------------------------------------------------- -->
+
+    <h2 style="margin-left: 45%;">All Brands</h2>
+
+    <div class="logos"
+        style="height: 500;width: 1200px; display: flex; flex-wrap: wrap; margin: 20px 350px 10px 350px;padding: 0px 50px 0px 50px; justify-content: space-evenly;">
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/audi.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/bmw.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/honda.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/hyundai.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/kia.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/land-rover1647236056893.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/mahindra.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/maruti-suzuki1647009823420.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/mg.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/skoda1681982956420.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/tata.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+        <li style="list-style: none;padding: 10px 10px 10px 10px;"><img src="Asset/toyota.jpg"
+                style="height: 106px; width: 163px; padding: 16px 4px 16px 4px; border: 1px solid rgb(199, 199, 199);">
+        </li>
+
+        <a style="color: blue;text-decoration: underline;">See More</a>
+
+    </div>
+
+    <!-- -------------------------------------------------------------------City------------------------------------------------------------------------ -->
+
+    <div class="city"
+        style="height: 500;width: 1200px;  margin: 20px 350px 10px 350px;padding: 0px 50px 0px 50px; display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Get trusted used cars nearby</h5>
+                <p>I am looking to buy a second hand car in</p>
+                <select class="form-control">
+                    <option>None</option>
+                    <option>Ahmedabad</option>
+                    <option>Banglore</option>
+                    <option>Chennai</option>
+                    <option>Delhi NCR</option>
+                    <option>Gurgaon</option>
+                    <option>Hyderabad</option>
+                    <option>Jaipur</option>
+                    <option>Kolkata</option>
+                    <option>Mumbai</option>
+                    <option>New Delhi</option>
+                    <option>Noida</option>
+                    <option>Pune</option>
+                </select>
+            </div>
+            <img class="card-img-bottom" src="Asset/City.png" alt="Card image cap"
+                style="height: 350px; width: 950px; padding: 10px 130px 10px 130px;">
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------------Footer---------------------------------------------------------------------- -->
+
+    <footer class="footer" style="background-color: #212529;">
+        <div class="panel1" style="background-color: #474a4e; color: white;">
+            <div class="container" style="display: flex; justify-content: center; font-size: 20px;">Thank you</div>
+        </div>
+        <div class="container" style="color: white; display: flex; justify-content: space-evenly; padding-top: 30px;">
+            <span class="text-muted" style="padding-top: 80px; margin-right: 10px;"><img src="Asset/logo1.png"></span>
+            <div class="footer_panel2" style="padding-top: 40px;
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: space-evenly;">
+                <ul>
+                    <p>Get to know us</p>
+                    <a>Careers</a>
+                    <a>Blog</a>
+                    <a>About us</a>
+                    <a>Investors Relations</a>
+                </ul>
+                <ul>
+                    <p>Make Money For Us</p>
+                    <a>Sell products on CarSwaps</a>
+                    <a>Sell on CarSwaps Business</a>
+                    <a>Sell apps on CarSwaps</a>
+                    <a>Become an Affiliate</a>
+                    <a>Advertise Your Products</a>
+                    <a>Self-Publish with Us</a>
+                    <a>Host an CarSwaps Hub</a>
+                </ul>
+                <ul>
+                    <p>CarSwaps Payment Products</p>
+                    <a>CarSwaps Business Card</a>
+                    <a>Shop with Points</a>
+                    <a>Reload Your Balance</a>
+                    <a>CarSwaps Currency Converter</a>
+                </ul>
+                <ul>
+                    <p>Let Us Help You</p>
+                    <a>CarSwaps and COVID-19</a>
+                    <a>Your Account</a>
+                    <a>Manage Your Content and Devices</a>
+                    <a>CarSwaps Assistant</a>
+                    <a>Help</a>
+                </ul>
+            </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
